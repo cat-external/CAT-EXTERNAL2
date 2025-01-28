@@ -161,7 +161,7 @@ gg.searchNumber(";ingame/pickup/pickup_m24", gg.TYPE_WORD, nil, nil, nil, nil)
 --[[ found: 32 ]]
 gg.getResults(100)
 --[[ count: 32 ]]
-gg.editAll(";effects/vfx_ingame_laser_red", gg.TYPE_WORD)
+gg.editAll(";effects/vfx_inagme_laser_shop", gg.TYPE_WORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
@@ -169,7 +169,7 @@ gg.searchNumber(";ingame/pickup/pickup_awm", gg.TYPE_WORD, nil, nil, nil, nil)
 --[[ found: 24 ]]
 gg.getResults(100)
 --[[ count: 24 ]]
-gg.editAll(";effects/vfx_ingame_laser", gg.TYPE_WORD)
+gg.editAll(";effects/vfx_ingame_laser_purple", gg.TYPE_WORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
