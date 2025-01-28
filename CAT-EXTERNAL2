@@ -4,6 +4,7 @@
 
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end -----------PERMISSION CODE
 
+gg.alert("M24 LOCATION ADDED - RED LASER-🚫")
 gg.alert("CHECK❌ YOUR DNS SERVER❌")
 gg.alert("ANTICHEAT SERVER ACTIVE")
 gg.alert(" ❌SERVER UPDATED❌ ^_^")
@@ -156,11 +157,11 @@ end
 function MAS10()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
-gg.searchNumber(";ingame/pickup/pickup_awm_goldgun", gg.TYPE_WORD, nil, nil, nil, nil)
+gg.searchNumber(";ingame/pickup/pickup_m24", gg.TYPE_WORD, nil, nil, nil, nil)
 --[[ found: 32 ]]
 gg.getResults(100)
 --[[ count: 32 ]]
-gg.editAll(";effects/vfx_ingame_laser", gg.TYPE_WORD)
+gg.editAll(";effects/vfx_ingame_laser_red", gg.TYPE_WORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
