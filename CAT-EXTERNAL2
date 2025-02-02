@@ -4,8 +4,9 @@
 
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end -----------PERMISSION CODE
 
-gg.alert("CHECK❌ YOUR DNS SERVER❌")
-gg.alert("ANTICHEAT SERVER ACTIVE")
+
+gg.alert("★ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ ＡＤＤＥＤ⚠️🚫")
+
 gg.alert(" ❌SERVER UPDATED❌ ^_^")
 
 -------------lobby------------
@@ -18,7 +19,7 @@ IG = gg.choice({
 	" ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ \n═════════════════════", ---IG 4
 	" ʜᴇᴀʀᴛ ʙʀᴏᴋᴇɴ ᴇᴍᴏᴛᴇ ★ \n═════════════════════", ---IG 5
 	" tea time emote ♻️\n═════════════════════", ---IG 6
-	" ᴇᴠᴏ ᴀᴋ★ \n═════════════════════", ---IG 7
+	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ(TEST)★ \n═════════════════════", ---IG 7
 	" ᴇᴠᴏ ᴍ10 \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
 	
@@ -120,14 +121,24 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 --------Function 7
 function MAS7()
 
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('15;35;10;20::13', gg.TYPE_FLOAT)
+gg.getResults(gg.getResultsCount())
+gg.editAll('100;100;99;99', gg.TYPE_FLOAT)
 gg.clearResults()
-    gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
-    gg.getResults(1000)
-    gg.editAll("909,000,063", gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.toast("✅ᴇᴠᴏ ᴀᴋ ᴏɴ✅")
-  end
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('4D;-1;-1;-1;-1;-1;-1;-1::29', gg.TYPE_FLOAT)
+gg.refineNumber('-1', gg.TYPE_FLOAT)
+gg.getResults(1)
+gg.editAll('99999999999', gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber('2;0.89999997616;2;2;2;2;2::25', gg.TYPE_FLOAT)
+gg.refineNumber('2', gg.TYPE_FLOAT)
+gg.getResults(1)
+gg.editAll('99999999999', gg.TYPE_FLOAT)
+gg.clearResults()
+end
 
 --------Function 8
 function MAS8()
