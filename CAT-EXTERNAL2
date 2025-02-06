@@ -18,7 +18,7 @@ IG = gg.choice({
 	" INVISIBLE GLOO ⚡ \n═════════════════════", ---IG 3
 	" ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ \n═════════════════════", ---IG 4
 	" ʜᴇᴀʀᴛ ʙʀᴏᴋᴇɴ ᴇᴍᴏᴛᴇ ★ \n═════════════════════", ---IG 5
-	" tea time emote ♻️\n═════════════════════", ---IG 6
+	" FIST EMOTE..?? ♻️\n═════════════════════", ---IG 6
 	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ(TEST)★ \n═════════════════════", ---IG 7
 	" ᴇᴠᴏ ᴍ10 \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
@@ -87,7 +87,6 @@ gg.clearResults()
 --------Function 4
 function MAS4()
 
-gg.clearResults()
     gg.setRanges(gg.REGION_ANONYMOUS)
     gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
     gg.getResults(1000)
@@ -113,10 +112,9 @@ function MAS6()
 gg.setRanges(gg.REGION_ANONYMOUS)
     gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
     gg.getResults(1000)
-    gg.editAll("909,000,046", gg.TYPE_DWORD)
+    gg.editAll("909,000,133", gg.TYPE_DWORD)
     gg.clearResults()
-    gg.toast("✅ᴛᴇᴀ ᴛɪᴍᴇ ᴇᴍᴏᴛᴇ ᴏɴ✅")
-  end
+   end
 
 --------Function 7
 function MAS7()
