@@ -18,9 +18,9 @@ IG = gg.choice({
 	" INVISIBLE GLOO ⚡ \n═════════════════════", ---IG 3
 	" ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ \n═════════════════════", ---IG 4
 	" ʜᴇᴀʀᴛ ʙʀᴏᴋᴇɴ ᴇᴍᴏᴛᴇ ★ \n═════════════════════", ---IG 5
-	" FIST EMOTE..?? ♻️\n═════════════════════", ---IG 6
+	" GHOST MOVE 👻 EMOTE ♻️\n═════════════════════", ---IG 6
 	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ(TEST)★ \n═════════════════════", ---IG 7
-	" ᴇᴠᴏ ᴍ10 \n═════════════════════", ---IG 8
+	" SAD EMOTE OLD ✨ \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
 	
 	" SNIPER LOCATION ★ \n═════════════════════", ---IG 10
@@ -110,9 +110,9 @@ function MAS5()
 function MAS6()
 
 gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
-    gg.getResults(1000)
-    gg.editAll("909,000,133", gg.TYPE_DWORD)
+    gg.searchNumber("909000000~909036001", gg.TYPE_DWORD)
+    gg.getResults("100000000")
+    gg.editAll("909036001", gg.TYPE_DWORD)
     gg.clearResults()
    end
 
@@ -141,13 +141,11 @@ end
 --------Function 8
 function MAS8()
 
-gg.clearResults()
-    gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setRanges(gg.REGION_ANONYMOUS)
     gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
     gg.getResults(1000)
-    gg.editAll("909,000,081", gg.TYPE_DWORD)
+    gg.editAll("909,000,048", gg.TYPE_DWORD)
     gg.clearResults()
-    gg.toast("✅ᴍ10 ᴇᴍᴏᴛᴇ ᴏɴ✅")
   end
 
 --------Function 9
