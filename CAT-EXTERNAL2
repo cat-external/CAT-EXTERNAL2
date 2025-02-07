@@ -5,7 +5,7 @@
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end -----------PERMISSION CODE
 
 
-gg.alert("★ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ ＡＤＤＥＤ⚠️🚫")
+gg.alert("★S P E E D HACK   ＡDＤ.  DONT USE REAL ACCOUNT★ IF YOU USE REAL ACCOUNT BLACKLIST AND BAN RISK ❌ TRY 1 DAY IN NOOB ACCOUNT THEN USE 2ND ACCOUNT 👻🚫")
 
 gg.alert(" ❌SERVER UPDATED❌ ^_^")
 
@@ -17,9 +17,9 @@ IG = gg.choice({
 	" FAST SWITCH ★ \n═════════════════════", ---IG 2
 	" INVISIBLE GLOO ⚡ \n═════════════════════", ---IG 3
 	" ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ \n═════════════════════", ---IG 4
-	" ʜᴇᴀʀᴛ ʙʀᴏᴋᴇɴ ᴇᴍᴏᴛᴇ ★ \n═════════════════════", ---IG 5
+	" SPEED RUN ( TEST )  ★ \n═════════════════════", ---IG 5
 	" GHOST MOVE 👻 EMOTE ♻️\n═════════════════════", ---IG 6
-	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ(TEST)★ \n═════════════════════", ---IG 7
+	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ()★ \n═════════════════════", ---IG 7
 	" SAD EMOTE OLD ✨ \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
 	
@@ -99,12 +99,13 @@ function MAS4()
 function MAS5()
 
  gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909000000~909000130", gg.TYPE_DWORD)
-    gg.getResults("1000")
-    gg.editAll("909000134", gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.toast("✅ʜᴇᴀʀᴛ ʙʀᴏᴋᴇɴ ᴇᴍᴏᴛᴇ ᴏɴ✅")
-  end
+gg.searchNumber("2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 999, -999)
+gg.refineNumber("1.20000004968", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 999, -999)
+gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("729.000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("SPEED RUN X3 ON")
+end
 
 --------Function 6
 function MAS6()
@@ -165,7 +166,7 @@ gg.searchNumber(";ingame/pickup/pickup_m24", gg.TYPE_WORD, nil, nil, nil, nil)
 --[[ found: 32 ]]
 gg.getResults(100)
 --[[ count: 32 ]]
-gg.editAll(";effects/vfx_inagme_laser_shop", gg.TYPE_WORD)
+gg.editAll(";effects/vfx_inagme_laser", gg.TYPE_WORD)
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.setVisible(false)
