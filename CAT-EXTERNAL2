@@ -5,7 +5,7 @@
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end -----------PERMISSION CODE
 
 
-gg.alert("★S P E E D HACK   ＡDＤ.  DONT USE REAL ACCOUNT★ IF YOU USE REAL ACCOUNT BLACKLIST AND BAN RISK ❌ TRY 1 DAY IN NOOB ACCOUNT THEN USE 2ND ACCOUNT 👻🚫")
+gg.alert("★ADD SNIPER DELY FIX AND FAKE DAMAGE FIX 🚫❌🚫❌")
 
 gg.alert(" ❌SERVER UPDATED❌ ^_^")
 
@@ -20,7 +20,7 @@ IG = gg.choice({
 	" SPEED RUN ( TEST )  ★ \n═════════════════════", ---IG 5
 	" GHOST MOVE 👻 EMOTE ♻️\n═════════════════════", ---IG 6
 	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ()★ \n═════════════════════", ---IG 7
-	" SAD EMOTE OLD ✨ \n═════════════════════", ---IG 8
+	" SNIPER DELY FIX (TEST) ✨ \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
 	
 	" SNIPER LOCATION ★ \n═════════════════════", ---IG 10
@@ -142,12 +142,12 @@ end
 --------Function 8
 function MAS8()
 
-gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
-    gg.getResults(1000)
-    gg.editAll("909,000,048", gg.TYPE_DWORD)
-    gg.clearResults()
-  end
+gg.setRanges(gg.REGION_CODE_APP | gg.REGION_ANONYMOUS)
+gg.searchNumber("hA0 E1 00 10 A0 E3 6A 14 01 EB 00 00 00 EA 00 60 A0 E3", gg.TYPE_BYTE)
+gg.getResults(150.0)
+gg.editAll("hA0 E1 00 10 A0 E3 6A 14 01 EB 00 00 00 EA 00 60 A0 00", gg.TYPE_BYTE)
+gg.clearResults()
+ end
 
 --------Function 9
 function MAS9()
