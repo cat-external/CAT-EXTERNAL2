@@ -17,10 +17,10 @@ IG = gg.choice({
 	" FAST SWITCH ★ \n═════════════════════", ---IG 2
 	" INVISIBLE GLOO ⚡ \n═════════════════════", ---IG 3
 	" ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ \n═════════════════════", ---IG 4
-	" SPEED RUN ( TEST )  ★ \n═════════════════════", ---IG 5
+	" SPEED RUN   ★ \n═════════════════════", ---IG 5
 	" GHOST MOVE 👻 EMOTE ♻️\n═════════════════════", ---IG 6
 	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ()★ \n═════════════════════", ---IG 7
-	" SNIPER DELY FIX (TEST) ✨ \n═════════════════════", ---IG 8
+	" COBRA DANCE EMOTE  ✨ \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
 	
 	" SNIPER LOCATION ★ \n═════════════════════", ---IG 10
@@ -142,12 +142,11 @@ end
 --------Function 8
 function MAS8()
 
-gg.setRanges(gg.REGION_CODE_APP | gg.REGION_ANONYMOUS)
-gg.searchNumber("hA0 E1 00 10 A0 E3 6A 14 01 EB 00 00 00 EA 00 60 A0 E3", gg.TYPE_BYTE)
-gg.getResults(150.0)
-gg.editAll("hA0 E1 00 10 A0 E3 6A 14 01 EB 00 00 00 EA 00 60 A0 00", gg.TYPE_BYTE)
+gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("909000001~909037015", gg.TYPE_DWORD)
+    gg.getResults(100000)
+gg.editAll("909000135",gg.TYPE_DWORD )
 gg.clearResults()
- end
 
 --------Function 9
 function MAS9()
