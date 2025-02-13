@@ -5,9 +5,9 @@
 function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end -----------PERMISSION CODE
 
 
-gg.alert("★ADD SNIPER DELY FIX AND FAKE DAMAGE FIX 🚫❌🚫❌")
+gg.alert(" (AI) GENERATOR ")
 
-gg.alert(" ❌SERVER UPDATED❌ ^_^")
+gg.alert("^_^")
 
 -------------lobby------------
 
