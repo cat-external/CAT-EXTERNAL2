@@ -147,7 +147,7 @@ gg.setRanges(gg.REGION_ANONYMOUS)
     gg.getResults(100000)
 gg.editAll("909000135",gg.TYPE_DWORD )
 gg.clearResults()
-
+end
 --------Function 9
 function MAS9()
 gg.setRanges(gg.REGION_ANONYMOUS)
