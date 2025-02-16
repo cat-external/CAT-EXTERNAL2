@@ -16,12 +16,12 @@ IG = gg.choice({
     " AWM SCOPE ⚔️ \n═════════════════════", ---IG 1
 	" FAST SWITCH ★ \n═════════════════════", ---IG 2
 	" INVISIBLE GLOO ⚡ \n═════════════════════", ---IG 3
-	" ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ \n═════════════════════", ---IG 4
+	" COBRA GROUP DANCE (EMOTE) \n═════════════════════", ---IG 4
 	" SPEED RUN   ★ \n═════════════════════", ---IG 5
-	" GHOST MOVE 👻 EMOTE ♻️\n═════════════════════", ---IG 6
+	" GHOST MOVE 👻 (EMOTE) ♻️\n═════════════════════", ---IG 6
 	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ()★ \n═════════════════════", ---IG 7
-	" M10 EVO EMOTE  ✨ \n═════════════════════", ---IG 8
-	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
+	" M10 EVO (EMOTE) ✨ \n═════════════════════", ---IG 8
+	" LOL-(EMOT♻️) \n═════════════════════", ---IG 9
 	
 	" SNIPER LOCATION ★ \n═════════════════════", ---IG 10
 	
@@ -87,12 +87,11 @@ gg.clearResults()
 --------Function 4
 function MAS4()
 
-    gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
-    gg.getResults(1000)
-    gg.editAll("909,000,014", gg.TYPE_DWORD)
-    gg.clearResults()
-    gg.toast("✅ᴛʜʀᴏɴᴇ ᴇᴍᴏᴛᴇ ᴏɴ✅")
+ gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("909000001~909037015", gg.TYPE_DWORD)
+    gg.getResults(100000)
+gg.editAll("909000071",gg.TYPE_DWORD )
+gg.clearResults()
   end
 
 --------Function 5
@@ -150,12 +149,12 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 end
 --------Function 9
 function MAS9()
+
 gg.setRanges(gg.REGION_ANONYMOUS)
     gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
     gg.getResults(1000)
     gg.editAll("909,000,002", gg.TYPE_DWORD)
     gg.clearResults()
-    gg.toast("✅ʟᴏʟ ᴇᴍᴏᴛᴇ ᴏɴ✅")
 end
 
 function MAS10()
