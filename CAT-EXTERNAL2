@@ -20,7 +20,7 @@ IG = gg.choice({
 	" SPEED RUN   ★ \n═════════════════════", ---IG 5
 	" GHOST MOVE 👻 EMOTE ♻️\n═════════════════════", ---IG 6
 	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ()★ \n═════════════════════", ---IG 7
-	" COBRA DANCE EMOTE  ✨ \n═════════════════════", ---IG 8
+	" M10 EVO EMOTE  ✨ \n═════════════════════", ---IG 8
 	" LOL-EMOT♻️ \n═════════════════════", ---IG 9
 	
 	" SNIPER LOCATION ★ \n═════════════════════", ---IG 10
@@ -143,10 +143,10 @@ end
 function MAS8()
 
 gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909000001~909037015", gg.TYPE_DWORD)
-    gg.getResults(100000)
-gg.editAll("909000135",gg.TYPE_DWORD )
-gg.clearResults()
+    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
+    gg.getResults(1000)
+    gg.editAll("909,000,081", gg.TYPE_DWORD)
+    gg.clearResults()
 end
 --------Function 9
 function MAS9()
