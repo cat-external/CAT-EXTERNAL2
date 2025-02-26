@@ -7,19 +7,19 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 gg.alert(" SERVER ACTIVE✅ ")
 
-gg.alert(" 10 DAYS USE NOOB ACCOUNT TEST ")
+gg.alert(" SNIPER FAST SWITCH  ADDED IF NOT WORK ON 2 TIMES  ")
 
 -------------lobby------------
 
 function START()
 IG = gg.choice({
     " AWM SCOPE ⚔️ \n═════════════════════", ---IG 1
-	" FAST SWITCH 🚫 COMING SOON ★ \n═════════════════════", ---IG 2
+	" FAST SWITCH ALL SNIPER (IF NOT WORK ON 2 TIMES ★ \n═════════════════════", ---IG 2
 	" INVISIBLE GLOO ⚡ \n═════════════════════", ---IG 3
 	" COBRA GROUP DANCE (EMOTE) \n═════════════════════", ---IG 4
-	" SPEED RUN   ★ \n═════════════════════", ---IG 5
+	" SPEED RUN  DON'T USE   ★ \n═════════════════════", ---IG 5
 	" GHOST MOVE 👻 (EMOTE) ♻️\n═════════════════════", ---IG 6
-	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ()★ \n═════════════════════", ---IG 7
+	" ＡＩＭ ＢＯＴ ＥＸＴＥＲＮＡＬ DON'T USE ()★ \n═════════════════════", ---IG 7
 	" M10 EVO (EMOTE) ✨ \n═════════════════════", ---IG 8
 	" LOL-(EMOT♻️) \n═════════════════════", ---IG 9
 	
@@ -60,7 +60,15 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 
 --------Function 2
 function MAS2()
-
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
+gg.searchNumber("h 00 00 00 00 3f 00 00 80 3e", gg.TYPE_BYTE)
+gg.getResults(1000, nil, nil)
+gg.editAll("h 00 ec 51 b8 3d 8f c2 f5 3c", gg.TYPE_BYTE)
+gg.clearResults()
+gg.searchNumber("h9A 99 19 3F 00 00 80 3E 00 00 00 00 04", gg.TYPE_BYTE)
+gg.getResults(1000, nil, nil)
+gg.editAll("hEC 51 B8 3D 8F C2 F5 3C 00 00 00 00 04", gg.TYPE_BYTE)
+gg.clearResults()
   end
 
 
