@@ -7,7 +7,7 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 gg.alert(" SERVER ACTIVE✅ ")
 
-gg.alert(" SNIPER FAST SWITCH  ADDED IF NOT WORK ON 2 TIMES  ")
+gg.alert(" SNIPER AMMO COLUR 🟪 AND M24 🟡  ")
 
 -------------lobby------------
 
@@ -160,29 +160,17 @@ gg.setRanges(gg.REGION_ANONYMOUS)
 end
 
 function MAS10()
+
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.setVisible(false)
-gg.searchNumber(";ingame/pickup/pickup_m24", gg.TYPE_WORD, nil, nil, nil, nil)
---[[ found: 32 ]]
-gg.getResults(100)
---[[ count: 32 ]]
-gg.editAll(";effects/vfx_inagme_laser", gg.TYPE_WORD)
+gg.searchNumber('Q"ingame/pickup/pickup_m24', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(11000)
+gg.editAll('Q"Effects/VFX_Ingame_Laser', gg.TYPE_BYTE)
 gg.clearResults()
+
 gg.setRanges(gg.REGION_ANONYMOUS)
-gg.setVisible(false)
-gg.searchNumber(";ingame/pickup/pickup_awm", gg.TYPE_WORD, nil, nil, nil, nil)
---[[ found: 24 ]]
-gg.getResults(100)
---[[ count: 24 ]]
-gg.editAll(";effects/vfx_ingame_laser", gg.TYPE_WORD)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.setVisible(false)
-gg.searchNumber(";ingame/pickup/ammo/pickup_ammo_sng", gg.TYPE_WORD, nil, nil, nil, nil)
---[[ found: 34 ]]
-gg.getResults(100)
---[[ count: 34 ]]
-gg.editAll(";effects/vfx_inagme_laser_shop", gg.TYPE_WORD)
+gg.searchNumber('Q"ingame/pickup/ammo/pickup_ammo_sn', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(11000)
+gg.editAll('Q"effects/vfx_inagme_laser_shop', gg.TYPE_BYTE)
 gg.clearResults()
 end
 
