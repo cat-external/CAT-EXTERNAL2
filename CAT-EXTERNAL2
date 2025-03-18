@@ -1,1 +1,143 @@
+function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end -----------PERMISSION CODE
 
+gg.alert(" CAT-EXTERNAL ADVANCE MODE ")
+
+gg.alert(" CAMERA LEFT DON'T  USE MAIN ACCOUNT★ ")
+
+gg.sleep(500)
+gg.setVisible(false)
+emojiList = {
+    "⚪",  -- ULTRA SWITCH
+    "⚪",  -- SNIPER SCOPE
+    "⚪",  -- SNIPER LOCATION
+    "⚪",  -- SNIPER FIX DELAY
+    "⚪",  -- SCOPE TRACKING
+    "⚪",  -- FIX FAKE DAMAGE
+    "⚪",  -- AIMBOT EXTERNAL
+    "⚪",  -- M82B ULTRA SWITCH
+    "⚪",  -- NO RECOIL
+    "⚪",  -- Antena laser
+}
+
+function updateEmoji(index)
+    emojiList[index] = "(ACTIVATED 🔴)"
+end
+
+while true do
+menu = gg.choice({
+        "SNIPER SCOPE " .. emojiList[1],
+        " FAST SWITCH  " .. emojiList[2],
+        "INVISIBLE GLOOWALL " .. emojiList[3],
+        "GHOST EMOTE " .. emojiList[4],
+        "SCOPE TRACKING " .. emojiList[5],
+        " EVO M10 " .. emojiList[6],
+        "AIMBOT EXTERNAL " .. emojiList[7],
+        "LOL EMOTE " .. emojiList[8],
+        "SPEED HACK X3  " .. emojiList[9],
+        "SNIPER LOCATION " .. emojiList[10],
+"EXIT",
+},nil,"CAT-EXTERNAL ADVANCE")
+        if menu == 1 then
+        updateEmoji(1)
+        gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('8.40779079e-45F;0D;0F;30F;50F;0.5F::33', gg.TYPE_DWORD)
+    gg.refineNumber('0', gg.TYPE_DWORD)
+    gg.getResults(1)-----[[© Dec By メㅤJᴜʟʟㅤ4Yᴏᴜ 亗 ]]-----
+    gg.editAll('-1', gg.TYPE_DWORD)
+    gg.clearResults()
+        end
+        if menu == 2 then
+        updateEmoji(2)
+        gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
+gg.searchNumber("h 00 00 00 00 3f 00 00 80 3e", gg.TYPE_BYTE)
+gg.getResults(1000, nil, nil)
+gg.editAll("h 00 ec 51 b8 3d 8f c2 f5 3c", gg.TYPE_BYTE)
+gg.clearResults()
+gg.searchNumber("h9A 99 19 3F 00 00 80 3E 00 00 00 00 04", gg.TYPE_BYTE)
+gg.getResults(1000, nil, nil)
+gg.editAll("hEC 51 B8 3D 8F C2 F5 3C 00 00 00 00 04", gg.TYPE_BYTE)
+gg.clearResults()
+        end
+        if menu == 3 then
+        updateEmoji(3)
+        gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("7209065;6357095;6619245;6357039;7536755;7536745;6357108;7602286;7602281;7143525;6881327;6619235;6357111;7077996;6422623;7209077;6619243;114:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+--[[ found: 18 ]]
+gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
+--[[ count: 18 ]]
+gg.editAll(";effects/vfx_pet/vfx_petskill_robot", gg.TYPE_DWORD)
+gg.processResume()
+gg.clearResults()
+    end
+        if menu == 4 then
+        updateEmoji(4)
+        gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("909000000~909036001", gg.TYPE_DWORD)
+    gg.getResults("100000000")
+    gg.editAll("909036001", gg.TYPE_DWORD)
+    gg.clearResults()
+        end
+        if menu == 5 then
+        updateEmoji(5)
+        gg.setRanges(gg.REGION_CODE_APP | gg.REGION_ANONYMOUS)
+gg.searchNumber("h33 33 13 40 00 00 F0 3F 00 00 80 3F", gg.TYPE_BYTE)
+gg.getResults(150.0)
+gg.editAll("h33 33 13 40 00 00 FF 3F 0F 00 80 5F", gg.TYPE_BYTE)
+gg.clearResults()
+        end
+        if menu == 6 then
+        updateEmoji(6)
+        
+        gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
+    gg.getResults(1000)
+    gg.editAll("909,000,081", gg.TYPE_DWORD)
+    gg.clearResults()
+
+        end
+        if menu == 7 then
+        updateEmoji(7)
+          gg.setRanges(gg.REGION_ANONYMOUS)
+            gg.searchNumber('15;35;10;20::13', gg.TYPE_FLOAT)
+            gg.getResults(gg.getResultsCount())
+            gg.editAll('25;45;60;80', gg.TYPE_FLOAT)
+            gg.clearResults()
+            end
+        if menu == 8 then
+        updateEmoji(8)
+        gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
+    gg.getResults(1000)
+    gg.editAll("909,000,002", gg.TYPE_DWORD)
+    gg.clearResults()
+        end
+        if menu == 9 then
+        updateEmoji(9)
+        gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 999, -999)
+gg.refineNumber("1.20000004968", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 999, -999)
+gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("729.000", gg.TYPE_FLOAT)
+gg.clearResults()
+        end
+        if menu == 10 then
+        updateEmoji(10)
+        gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('Q"ingame/pickup/pickup_m24', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(11000)
+gg.editAll('Q"Effects/VFX_Ingame_Laser', gg.TYPE_BYTE)
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber('Q"ingame/pickup/ammo/pickup_ammo_sn', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(11000)
+gg.editAll('Q"effects/vfx_inagme_laser_shop', gg.TYPE_BYTE)
+gg.clearResults()
+        end
+
+
+        if menu == 11 then
+        os.exit()
+        end
+        end
