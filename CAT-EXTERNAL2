@@ -60,14 +60,11 @@ gg.clearResults()
         end
         if menu == 3 then
         updateEmoji(3)
-        gg.setRanges(gg.REGION_ANONYMOUS)
-gg.setVisible(false)
-gg.searchNumber("7209065;6357095;6619245;6357039;7536755;7536745;6357108;7602286;7602281;7143525;6881327;6619235;6357111;7077996;6422623;7209077;6619243;114:69", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
---[[ found: 18 ]]
-gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
---[[ count: 18 ]]
-gg.editAll(";effects/vfx_pet/vfx_petskill_robot", gg.TYPE_DWORD)
-gg.processResume()
+        gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
+gg.searchNumber("h 23 00 00 00 69 00 6E 00 67 00 61 00 6D 00 65 00 2F 00 61 00 73 00 73 00 69 00 73 00 74 00 61 00 6E 00 74 00 69 00 74 00 65 00 6D 00 2F 00 69 00 63 00 65 00 77 00 61 00 6C 00 6C 00 5F 00 62 00 75 00 6E 00 6B 00 65 00 72", gg.TYPE_BYTE)
+t1 = gg.getResults(gg.getResultsCount())
+gg.setValues(t1)
+gg.editAll("h 23 00 00 00 65 00 66 00 66 00 65 00 63 00 74 00 73 00 2F 00 76 00 66 00 78 00 5F 00 70 00 65 00 74 00 2F 00 76 00 66 00 78 00 5F 00 70 00 65 00 74 00 73 00 6B 00 69 00 6C 00 6C 00 5F 00 72 00 6F 00 62 00 6F 00 74 00 00", gg.TYPE_BYTE)
 gg.clearResults()
     end
         if menu == 4 then
@@ -141,3 +138,6 @@ gg.clearResults()
         os.exit()
         end
         end
+        
+        
+       
