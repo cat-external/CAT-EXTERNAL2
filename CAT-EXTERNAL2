@@ -30,7 +30,7 @@ menu = gg.choice({
         "INVISIBLE GLOOWALL " .. emojiList[3],
         "GHOST EMOTE " .. emojiList[4],
         "SCOPE TRACKING " .. emojiList[5],
-        " EVO M10 " .. emojiList[6],
+        " EVO THOMSON " .. emojiList[6],
         "AIMBOT EXTERNAL " .. emojiList[7],
         "GLITCH FIRE🔥 " .. emojiList[8],
         "SPEED HACK X3  " .. emojiList[9],
@@ -85,14 +85,12 @@ gg.clearResults()
         end
         if menu == 6 then
         updateEmoji(6)
-        
-        gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909,000,000~909000160", gg.TYPE_DWORD)
-    gg.getResults(1000)
-    gg.editAll("909,000,081", gg.TYPE_DWORD)
+       gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber("909000001~909048015", gg.TYPE_DWORD)
+    gg.getResults("100000")
+    gg.editAll("909038010", gg.TYPE_DWORD)
     gg.clearResults()
-
-        end
+    end
         if menu == 7 then
         updateEmoji(7)
           gg.setRanges(gg.REGION_ANONYMOUS)
@@ -138,3 +136,6 @@ gg.clearResults()
         os.exit()
         end
         end
+        
+        
+       
