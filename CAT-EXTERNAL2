@@ -2,7 +2,7 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 gg.alert(" CAT-EXTERNAL ADVANCE MODE ")
 
-gg.alert(" Glitch Fire HEX CODE 🔥 ★ ")
+gg.alert(" HEX CAMERA UPDATE 🔥 ★ ")
 
 gg.sleep(500)
 gg.setVisible(false)
@@ -28,7 +28,7 @@ menu = gg.choice({
         "SNIPER SCOPE " .. emojiList[1],
         " FAST SWITCH  " .. emojiList[2],
         "INVISIBLE GLOOWALL " .. emojiList[3],
-        "GHOST EMOTE " .. emojiList[4],
+        "ALWAYS ON CAMERA (new) " .. emojiList[4],
         "SCOPE TRACKING " .. emojiList[5],
         " EVO M1887 " .. emojiList[6],
         "AIMBOT EXTERNAL " .. emojiList[7],
@@ -70,10 +70,17 @@ gg.clearResults()
      if menu == 4 then
         updateEmoji(4)
         gg.setRanges(gg.REGION_ANONYMOUS)
-    gg.searchNumber("909000000~909036001", gg.TYPE_DWORD)
-    gg.getResults("100000000")
-    gg.editAll("909036001", gg.TYPE_DWORD)
+gg.searchNumber("h 00 00 00 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 80 bf 00 00 00 00 00 00 80 bf 00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 80 bf 00 00 80 7f 00 00 80 7f 00 00 80 7f 00 00 80 ff", gg.TYPE_BYTE)
+gg.getResults(2000)
+gg.editAll("h 00 00 00 00 00 00 3e 40 00 00 00 00 00 00 00 00 00 00 80 bf 00 00 00 00 00 00 80 bf 00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3f 00 00 00 00 00 00 00 00 00 00 80 bf 00 00 80 7f 00 00 80 7f 00 00 80 7f 00 00 80 ff", gg.TYPE_BYTE)
+gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_CODE_APP)
+    gg.searchNumber("h C0 3F 00 00 00 3F 00 00 80 3F 00 00", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+    gg.getResults(gg.getResultsCount())
+    gg.editAll("h00 00 00 00 00 3F 00 00 80 3F 00 00", gg.TYPE_BYTE)
     gg.clearResults()
+    
         end
         if menu == 5 then
         updateEmoji(5)
