@@ -95,7 +95,7 @@ gg.clearResults()
           gg.setRanges(gg.REGION_ANONYMOUS)
     gg.searchNumber("909000001~909048015", gg.TYPE_DWORD)
     gg.getResults("100000")
-    gg.editAll("909045001", gg.TYPE_DWORD)
+    gg.editAll("909033001", gg.TYPE_DWORD)
     gg.clearResults()
     end
         if menu == 7 then
